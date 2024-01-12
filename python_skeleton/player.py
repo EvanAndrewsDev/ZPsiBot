@@ -183,6 +183,8 @@ class Player(Bot):
                     if hand in great_preflop:
                         return RaiseAction(min(max_raise,int(2.5 * opp_pip)))
                 return RaiseAction(min(max_raise,int(2.5 * opp_pip)))
+        
+        return FoldAction() #Fil this in for post flop strategy instead of just fold
 
 
 
