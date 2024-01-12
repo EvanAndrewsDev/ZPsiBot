@@ -27,7 +27,7 @@ hand_to_equity = {
     "High Card": 0.3,
     "Pair": 0.6,
     "Two Pair": 0.8,
-    "Three of a Kind": 0.95,
+    "Trips": 0.95,
     "Straight": 0.98,
     "Flush": 1,
     "Full House": 1,
@@ -38,7 +38,7 @@ hand_to_equity = {
 
 pocket_2_max, pocket_2_min = 17563648, 327680
 
-strength_dict = {'2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9, 'T': 10, 'J': 11, 'Q': 12, 'K': 13, 'A':14}
+#strength_dict = {0: 2, '1': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9, 'T': 10, 'J': 11, 'Q': 12, 'K': 13, 'A':14}
 
 deck = generate_deck()
 
@@ -48,10 +48,10 @@ all_hands_3_str = generate_all_hands(deck,3)
 all_hands_3 = [[eval7.Card(hand[:2]) , eval7.Card(hand[2:])] for hand in all_hands_3_str]
 
 pre_flop_fold = []
-for hand in all_hands_2_str:
-    if hand[1] != hand[3] and hand[0] != hand[2] and (strength_dict[hand[0]] + strength_dict[hand[2]] < 14):
+for hand in all_hands_2:
+    if hand[0].suit != hand[1].suit and hand[0].rank != hand[1].rank and (hand[0].rank + hand[1].rank < 10):
         pre_flop_fold.append(hand)
-pre_flop_fold = [[eval7.Card(hand[:2]) , eval7.Card(hand[2:])] for hand in pre_flop_fold]
+#pre_flop_fold = [[eval7.Card(hand[:2]) , eval7.Card(hand[2:])] for hand in pre_flop_fold]
 
 class Player(Bot):
     '''
@@ -155,10 +155,22 @@ class Player(Bot):
         hand_rank = eval7.evaluate(hand)
 
         if BidAction in legal_actions:
+            #print(opp_bid)
+            if opp_bid == None:
+                return BidAction(min(my_stack, 200))
             return BidAction(min(opp_bid + 1, my_stack))
 
         if street == 0:
-            great_preflop = [hand for hand in all_hands_2 if ((hand[0] == hand[2] and strength_dict[hand[0]] + strength_dict[hand[2]] >= 18) or strength_dict[hand[0]] + strength_dict[hand[2]] >= 26)]
+            
+            
+            great_preflop = []
+            for h in all_hands_2:
+                
+                if ((h[0].rank == h[1].rank and h[0].rank + h[1].rank >= 14) or h[0].rank + h[1].rank >= 22):
+                    great_preflop.append(h)
+                
+
+            #great_preflop = [h for h in all_hands_2 if ((h[0].rank == h[1].rank and strength_dict[h[0].rank] + strength_dict[h[1].rank] >= 18) or strength_dict[h[0].rank] + strength_dict[h[1].rank] >= 26)]
             if big_blind: #we are small blind
                 if hand in pre_flop_fold:
                     if CheckAction in legal_actions:
@@ -200,9 +212,11 @@ class Player(Bot):
         equity = hand_to_equity[hand_type]
         
         if equity >= 0.8:
-            return RaiseAction(0.9*max_raise) #try to trip up all in trigger
+            if RaiseAction in legal_actions:
+                return RaiseAction(0.9*max_raise) #try to trip up all in trigger
         elif equity >= 0.6:
-            return RaiseAction(min(max_raise, int(0.5*(pot))))
+            if RaiseAction in legal_actions:
+                return RaiseAction(min(max_raise, int(0.5*(pot))))
         else:
             if CheckAction in legal_actions:
                 if continue_cost < equity*pot:
