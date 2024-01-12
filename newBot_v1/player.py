@@ -31,7 +31,7 @@ hand_to_equity = {
     "Straight": 0.98,
     "Flush": 1,
     "Full House": 1,
-    "Four of a Kind": 1,
+    "Quads": 1,
     "Straight Flush": 1,
     "Royal Flush": 1
 }
@@ -142,26 +142,22 @@ class Player(Bot):
            min_cost = min_raise - my_pip  # the cost of a minimum bet/raise
            max_cost = max_raise - my_pip  # the cost of a maximum bet/raise
            print(min_raise, max_raise, my_stack, opp_stack, my_pip, opp_pip)
-        
-        # if CheckAction in legal_actions:
-        #     return CheckAction()
-        # elif BidAction in legal_actions:
-        #     return BidAction(int(random.random()*my_stack)) # random bid between 0 and our stack
-        # return CallAction()
     
         #___myLogic___
         all_cards = my_cards + board_cards
         hand = [eval7.Card(s) for s in all_cards]
         hand_rank = eval7.evaluate(hand)
+        hand_type = eval7.handtype(hand_rank)
+        equity = hand_to_equity[hand_type]
 
         if BidAction in legal_actions:
             #print(opp_bid)
             if opp_bid == None:
-                return BidAction(min(my_stack, 200))
+                #100 was great
+                return BidAction(min(my_stack, 120))
             return BidAction(min(opp_bid + 1, my_stack))
 
         if street == 0:
-            
             
             great_preflop = []
             for h in all_hands_2:
@@ -232,10 +228,4 @@ class Player(Bot):
 
 
 if __name__ == '__main__':
-    # hand = ["7s", "2d"]
-    # hand = [eval7.Card(s) for s in hand]
-
-    # # Get the hand rank using eval7
-    # hand_rank = eval7.evaluate(hand)
-    # print("hand rank: ", hand_rank)
     run_bot(Player(), parse_args())
