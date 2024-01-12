@@ -23,6 +23,19 @@ def generate_all_hands(deck, number):
     return ["".join(c) for c in combos]
 #
 
+hand_to_equity = {
+    "High Card": 0.3,
+    "Pair": 0.6,
+    "Two Pair": 0.8,
+    "Three of a Kind": 0.95,
+    "Straight": 0.98,
+    "Flush": 1,
+    "Full House": 1,
+    "Four of a Kind": 1,
+    "Straight Flush": 1,
+    "Royal Flush": 1
+}
+
 pocket_2_max, pocket_2_min = 17563648, 327680
 
 strength_dict = {'2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9, 'T': 10, 'J': 11, 'Q': 12, 'K': 13, 'A':14}
@@ -122,6 +135,7 @@ class Player(Bot):
         continue_cost = opp_pip - my_pip  # the number of chips needed to stay in the pot
         my_contribution = STARTING_STACK - my_stack  # the number of chips you have contributed to the pot
         opp_contribution = STARTING_STACK - opp_stack  # the number of chips your opponent has contributed to the pot
+        pot = my_contribution + opp_contribution
         big_blind = bool(active)
         if RaiseAction in legal_actions:
            min_raise, max_raise = round_state.raise_bounds()  # the smallest and largest numbers of chips for a legal bet/raise
@@ -138,12 +152,10 @@ class Player(Bot):
         #___myLogic___
         all_cards = my_cards + board_cards
         hand = [eval7.Card(s) for s in all_cards]
-        my_score = eval7.evaluate(hand)
+        hand_rank = eval7.evaluate(hand)
 
         if BidAction in legal_actions:
-            if opp_bid + 1 > my_stack:
-                return BidAction(my_stack)
-            return opp_bid + 1
+            return BidAction(min(opp_bid + 1, my_stack))
 
         if street == 0:
             great_preflop = [hand for hand in all_hands_2 if ((hand[0] == hand[2] and strength_dict[hand[0]] + strength_dict[hand[2]] >= 18) or strength_dict[hand[0]] + strength_dict[hand[2]] >= 26)]
@@ -184,7 +196,24 @@ class Player(Bot):
                         return RaiseAction(min(max_raise,int(2.5 * opp_pip)))
                 return RaiseAction(min(max_raise,int(2.5 * opp_pip)))
         
-        return FoldAction() #Fil this in for post flop strategy instead of just fold
+        hand_type = eval7.handtype(hand_rank)
+        equity = hand_to_equity[hand_type]
+        
+        if equity >= 0.8:
+            return RaiseAction(0.9*max_raise) #try to trip up all in trigger
+        elif equity >= 0.6:
+            return RaiseAction(min(max_raise, int(0.5*(pot))))
+        else:
+            if CheckAction in legal_actions:
+                if continue_cost < equity*pot:
+                    return CheckAction()
+                else:
+                    return FoldAction()
+        
+        if CheckAction in legal_actions:
+            return CheckAction()
+        return FoldAction()
+
 
 
 
