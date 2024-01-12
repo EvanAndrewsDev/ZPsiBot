@@ -38,8 +38,6 @@ hand_to_equity = {
 
 pocket_2_max, pocket_2_min = 17563648, 327680
 
-#strength_dict = {0: 2, '1': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9, 'T': 10, 'J': 11, 'Q': 12, 'K': 13, 'A':14}
-
 deck = generate_deck()
 
 all_hands_2_str = generate_all_hands(deck,2)
@@ -196,20 +194,27 @@ class Player(Bot):
             
             else: #we are small blind
                 if hand in pre_flop_fold:
-                    if CheckAction in legal_actions:
-                        return CheckAction()
+                    # if CheckAction in legal_actions:
+                    #     return CheckAction()
                     return FoldAction()
                 if opp_pip > 2:
                     if hand in great_preflop:
                         return RaiseAction(min(max_raise,int(2.5 * opp_pip)))
+                    else:
+                        if continue_cost > equity*pot:
+                            return FoldAction()
+                        else:
+                            return CallAction()
                 return RaiseAction(min(max_raise,int(2.5 * opp_pip)))
         
+        #This is start of post flop logic
         hand_type = eval7.handtype(hand_rank)
         equity = hand_to_equity[hand_type]
         
         if equity >= 0.8:
             if RaiseAction in legal_actions:
                 return RaiseAction(0.9*max_raise) #try to trip up all in trigger
+            
         elif equity >= 0.6:
             if RaiseAction in legal_actions:
                 return RaiseAction(min(max_raise, int(0.5*(pot))))
@@ -222,6 +227,8 @@ class Player(Bot):
         
         if CheckAction in legal_actions:
             return CheckAction()
+        if CallAction in legal_actions:
+            return CallAction()
         return FoldAction()
 
 
