@@ -1,55 +1,34 @@
-8 400 398 395 2 5
-4 400 399 398 1 2
-8 400 398 395 2 5
-4 400 399 398 1 2
-8 400 398 395 2 5
-4 400 399 398 1 2
-8 400 398 395 2 5
-4 400 399 398 1 2
-8 400 398 395 2 5
 4 400 399 398 1 2
 4 400 399 398 1 2
-8 400 398 395 2 5
 4 400 399 398 1 2
-8 400 398 395 2 5
 4 400 399 398 1 2
-8 400 398 395 2 5
 4 400 399 398 1 2
-8 400 398 395 2 5
 4 400 399 398 1 2
-8 400 398 395 2 5
 4 400 399 398 1 2
-8 400 398 395 2 5
 4 400 399 398 1 2
-8 400 398 395 2 5
 4 400 399 398 1 2
-8 400 398 395 2 5
 4 400 399 398 1 2
-8 400 398 395 2 5
 4 400 399 398 1 2
-8 400 398 395 2 5
 4 400 399 398 1 2
-8 400 398 395 2 5
 4 400 399 398 1 2
-8 400 398 395 2 5
 4 400 399 398 1 2
-8 400 398 395 2 5
 4 400 399 398 1 2
-8 400 398 395 2 5
 4 400 399 398 1 2
-8 400 398 395 2 5
 4 400 399 398 1 2
-8 400 398 395 2 5
 4 400 399 398 1 2
-8 400 398 395 2 5
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
 4 400 399 398 1 2
 Traceback (most recent call last):
-  File "/Users/claydavis/Documents/GitHub/ZPsiBot/python_v2/player.py", line 241, in <module>
+  File "/Users/claydavis/Documents/GitHub/ZPsiBot/new_team_bot_v1/player.py", line 238, in <module>
     run_bot(Player(), parse_args())
-  File "/Users/claydavis/Documents/GitHub/ZPsiBot/python_v2/skeleton/runner.py", line 144, in run_bot
+  File "/Users/claydavis/Documents/GitHub/ZPsiBot/new_team_bot_v1/skeleton/runner.py", line 143, in run_bot
     runner.run()
-  File "/Users/claydavis/Documents/GitHub/ZPsiBot/python_v2/skeleton/runner.py", line 119, in run
+  File "/Users/claydavis/Documents/GitHub/ZPsiBot/new_team_bot_v1/skeleton/runner.py", line 118, in run
     action = self.pokerbot.get_action(game_state, round_state, active)
-  File "/Users/claydavis/Documents/GitHub/ZPsiBot/python_v2/player.py", line 209, in get_action
-    return RaiseAction(min(max_raise,int(2.5 * opp_pip)))
+  File "/Users/claydavis/Documents/GitHub/ZPsiBot/new_team_bot_v1/player.py", line 182, in get_action
+    return RaiseAction(max_raise)
 UnboundLocalError: local variable 'max_raise' referenced before assignment
