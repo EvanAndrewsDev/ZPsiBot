@@ -156,7 +156,7 @@ class Player(Bot):
             if RaiseAction in legal_actions:
                 return RaiseAction(max(0, max_raise))
             else:
-                return CheckAction
+                return CheckAction()
 
        
 '''

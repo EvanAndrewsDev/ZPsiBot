@@ -1,521 +1,514 @@
-4 400 399 398 1 2
-8 400 398 395 2 5
-4 400 399 398 1 2
-4 400 399 398 1 2
-8 400 398 395 2 5
-4 400 399 398 1 2
-8 400 398 395 2 5
-4 400 399 398 1 2
-4 400 399 398 1 2
-8 400 398 395 2 5
-4 400 399 398 1 2
-8 400 398 395 2 5
-4 400 399 398 1 2
-8 400 398 395 2 5
-4 400 399 398 1 2
-8 400 398 395 2 5
-4 400 399 398 1 2
-8 400 398 395 2 5
-4 400 399 398 1 2
-8 400 398 395 2 5
-4 400 399 398 1 2
-8 400 398 395 2 5
-4 400 399 398 1 2
-8 400 398 395 2 5
-4 400 399 398 1 2
-8 400 398 395 2 5
-4 400 399 398 1 2
-8 400 398 395 2 5
-4 400 399 398 1 2
-8 400 398 395 2 5
-4 400 399 398 1 2
-8 400 398 395 2 5
-4 400 399 398 1 2
-4 400 399 398 1 2
-8 400 398 395 2 5
-4 400 399 398 1 2
-8 400 398 395 2 5
-4 400 399 398 1 2
-8 400 398 395 2 5
-4 400 399 398 1 2
-8 400 398 395 2 5
-4 400 399 398 1 2
-8 400 398 395 2 5
-4 400 399 398 1 2
-8 400 398 395 2 5
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
-4 400 399 398 1 2
+[Card("Qc"), Card("Qd")]
+[Card("7h"), Card("5d")]
+[Card("8c"), Card("Qc")]
+[Card("2d"), Card("Kc")]
+[Card("8s"), Card("6s")]
+[Card("7c"), Card("9c")]
+[Card("Ks"), Card("5s")]
+[Card("2s"), Card("8c")]
+hand should be folded
+[Card("9d"), Card("4d")]
+[Card("3s"), Card("4c")]
+hand should be folded
+[Card("7d"), Card("8h")]
+[Card("4s"), Card("Qc")]
+[Card("Js"), Card("Ks")]
+[Card("Qh"), Card("9c")]
+[Card("4h"), Card("9h")]
+[Card("7h"), Card("Th")]
+[Card("5s"), Card("Tc")]
+[Card("Jd"), Card("5c")]
+[Card("Tc"), Card("Kd")]
+[Card("Kd"), Card("Qd")]
+[Card("7s"), Card("7d")]
+[Card("6d"), Card("7s")]
+hand should be folded
+[Card("6h"), Card("2s")]
+[Card("Kh"), Card("4d")]
+[Card("6h"), Card("4d")]
+[Card("8s"), Card("6s")]
+[Card("2d"), Card("5d")]
+[Card("5c"), Card("9c")]
+[Card("4h"), Card("6d")]
+hand should be folded
+[Card("2d"), Card("Qc")]
+[Card("5c"), Card("Ac")]
+[Card("9s"), Card("4d")]
+[Card("Qs"), Card("5d")]
+[Card("6s"), Card("7s")]
+[Card("5h"), Card("Kh")]
+[Card("3h"), Card("2d")]
+[Card("4c"), Card("Kc")]
+[Card("5d"), Card("Ks")]
+[Card("Kc"), Card("Ah")]
+hand is in great preflop
+[Card("9s"), Card("6d")]
+[Card("4s"), Card("Jd")]
+[Card("Td"), Card("3d")]
+[Card("3d"), Card("7s")]
+hand should be folded
+[Card("5d"), Card("8c")]
+hand should be folded
+[Card("4s"), Card("8s")]
+[Card("Kd"), Card("3c")]
+[Card("9c"), Card("6c")]
+[Card("4d"), Card("9s")]
+hand should be folded
+[Card("2h"), Card("Qs")]
+[Card("6c"), Card("Td")]
+[Card("9c"), Card("6h")]
+[Card("Ks"), Card("6h")]
+[Card("Kc"), Card("4h")]
+[Card("8s"), Card("5d")]
+[Card("5h"), Card("Qd")]
+[Card("7d"), Card("Qd")]
+[Card("3c"), Card("Td")]
+hand should be folded
+[Card("4s"), Card("7h")]
+hand should be folded
+[Card("5h"), Card("Qc")]
+[Card("Qh"), Card("8d")]
+[Card("6c"), Card("Kc")]
+[Card("2c"), Card("Td")]
+hand should be folded
+[Card("Qh"), Card("7s")]
+[Card("Js"), Card("5h")]
+[Card("5s"), Card("6s")]
+[Card("8s"), Card("6d")]
+[Card("6d"), Card("Th")]
+[Card("6h"), Card("5s")]
+[Card("7h"), Card("8h")]
+[Card("Jh"), Card("7c")]
+[Card("9c"), Card("6s")]
+[Card("4h"), Card("Js")]
+[Card("7d"), Card("Qc")]
+[Card("7h"), Card("Kc")]
+[Card("5s"), Card("5h")]
+[Card("Qs"), Card("Th")]
+[Card("5s"), Card("6s")]
+[Card("Js"), Card("As")]
+[Card("5d"), Card("Td")]
+[Card("Kc"), Card("Jd")]
+[Card("5c"), Card("8h")]
+hand should be folded
+[Card("Ac"), Card("3h")]
+[Card("Th"), Card("4d")]
+[Card("8d"), Card("2c")]
+[Card("3h"), Card("Ks")]
+[Card("Jd"), Card("2h")]
+[Card("3d"), Card("Td")]
+[Card("7d"), Card("As")]
+[Card("Th"), Card("Ac")]
+[Card("Ts"), Card("Kc")]
+[Card("2h"), Card("Tc")]
+hand should be folded
+[Card("Jc"), Card("Qh")]
+[Card("9s"), Card("5d")]
+[Card("As"), Card("Kh")]
+[Card("Ah"), Card("5d")]
+[Card("6s"), Card("Jh")]
+[Card("3h"), Card("3c")]
+[Card("Js"), Card("9d")]
+[Card("3c"), Card("Kd")]
+[Card("Kc"), Card("4h")]
+[Card("Ts"), Card("Qh")]
+[Card("3d"), Card("2d")]
+[Card("3s"), Card("Qc")]
+[Card("Qd"), Card("8c")]
+[Card("7h"), Card("4h")]
+[Card("2s"), Card("Js")]
+[Card("Kc"), Card("Qc")]
+[Card("5d"), Card("Qc")]
+[Card("3s"), Card("2s")]
+[Card("3s"), Card("Jh")]
+[Card("Tc"), Card("Kd")]
+[Card("Ts"), Card("9d")]
+[Card("Qs"), Card("4s")]
+[Card("Jd"), Card("7s")]
+[Card("Qh"), Card("Kc")]
+[Card("Ad"), Card("7c")]
+[Card("Js"), Card("Qd")]
+[Card("6s"), Card("5s")]
+[Card("2s"), Card("8h")]
+hand should be folded
+[Card("Qc"), Card("Kd")]
+[Card("Kd"), Card("5c")]
+[Card("4c"), Card("5c")]
+[Card("9c"), Card("Td")]
+[Card("5c"), Card("5h")]
+[Card("8d"), Card("As")]
+[Card("9c"), Card("Jd")]
+[Card("9h"), Card("Jd")]
+[Card("Qs"), Card("5c")]
+[Card("7d"), Card("2h")]
+[Card("Kd"), Card("Js")]
+[Card("Ac"), Card("Jd")]
+[Card("Tc"), Card("7s")]
+[Card("Jd"), Card("Ad")]
+[Card("9h"), Card("6s")]
+[Card("Kc"), Card("7h")]
+[Card("Kc"), Card("As")]
+hand is in great preflop
+[Card("4h"), Card("Js")]
+[Card("Jd"), Card("3c")]
+[Card("8h"), Card("Ts")]
+[Card("Ad"), Card("Jd")]
+[Card("2d"), Card("Td")]
+[Card("8h"), Card("Qs")]
+[Card("Kd"), Card("9h")]
+[Card("7d"), Card("5c")]
+[Card("Js"), Card("2c")]
+[Card("7d"), Card("4d")]
+[Card("Kh"), Card("4h")]
+[Card("Kh"), Card("8d")]
+[Card("6c"), Card("Ad")]
+[Card("9c"), Card("7h")]
+[Card("3h"), Card("Td")]
+hand should be folded
+[Card("5d"), Card("Jh")]
+[Card("3d"), Card("5s")]
+hand should be folded
+[Card("As"), Card("8c")]
+[Card("7s"), Card("8h")]
+[Card("4c"), Card("9d")]
+hand should be folded
+[Card("6d"), Card("Ts")]
+[Card("4s"), Card("Qc")]
+[Card("3s"), Card("Td")]
+hand should be folded
+[Card("2h"), Card("Jh")]
+[Card("5h"), Card("5c")]
+[Card("9s"), Card("6s")]
+[Card("5c"), Card("Tc")]
+[Card("Ah"), Card("Qc")]
+[Card("Qc"), Card("6c")]
+[Card("Jc"), Card("Qd")]
+[Card("Kh"), Card("Qc")]
+[Card("4d"), Card("8d")]
+[Card("Ac"), Card("6h")]
+[Card("Jc"), Card("Kh")]
+[Card("2h"), Card("2c")]
+[Card("3s"), Card("3h")]
+[Card("Jd"), Card("Kd")]
+[Card("Ks"), Card("Jh")]
+[Card("6h"), Card("7d")]
+hand should be folded
+[Card("Qh"), Card("7h")]
+[Card("3h"), Card("Ah")]
+[Card("8c"), Card("8d")]
+[Card("2h"), Card("3d")]
+hand should be folded
+[Card("Qh"), Card("6h")]
+[Card("Th"), Card("Kh")]
+[Card("7h"), Card("9h")]
+[Card("Ac"), Card("6h")]
+[Card("7d"), Card("Jh")]
+[Card("9c"), Card("Ac")]
+[Card("7h"), Card("8c")]
+[Card("Ts"), Card("5c")]
+[Card("2s"), Card("9d")]
+hand should be folded
+[Card("Ad"), Card("8h")]
+[Card("5h"), Card("Td")]
+[Card("8h"), Card("2s")]
+[Card("4c"), Card("Td")]
+[Card("6d"), Card("Ad")]
+[Card("7h"), Card("9h")]
+[Card("4s"), Card("Qs")]
+[Card("9s"), Card("5c")]
+[Card("5s"), Card("3s")]
+[Card("3c"), Card("7c")]
+[Card("As"), Card("8h")]
+[Card("Jh"), Card("9c")]
+[Card("7c"), Card("7d")]
+[Card("5s"), Card("5d")]
+[Card("Qs"), Card("Ac")]
+hand is in great preflop
+[Card("Ac"), Card("4h")]
+[Card("Tc"), Card("8s")]
+[Card("Ad"), Card("5s")]
+[Card("Qc"), Card("4c")]
+[Card("5c"), Card("8c")]
+[Card("8s"), Card("2c")]
+[Card("Jh"), Card("Kd")]
+[Card("Kh"), Card("7h")]
+[Card("9s"), Card("Ts")]
+[Card("8h"), Card("Qc")]
+[Card("8d"), Card("7c")]
+[Card("2s"), Card("3d")]
+hand should be folded
+[Card("3c"), Card("8h")]
+hand should be folded
+[Card("2d"), Card("Qs")]
+[Card("4s"), Card("Qd")]
+[Card("9h"), Card("Jc")]
+[Card("9s"), Card("4d")]
+[Card("4h"), Card("As")]
+[Card("Jh"), Card("Qs")]
+[Card("9c"), Card("3d")]
+[Card("2d"), Card("Qc")]
+[Card("Qh"), Card("Kd")]
+[Card("5h"), Card("2h")]
+[Card("5s"), Card("Jd")]
+[Card("As"), Card("9d")]
+[Card("7s"), Card("5d")]
+[Card("7d"), Card("7s")]
+[Card("3s"), Card("Qd")]
+[Card("4s"), Card("6s")]
+[Card("Ts"), Card("9h")]
+[Card("8h"), Card("Th")]
+[Card("2c"), Card("6h")]
+hand should be folded
+[Card("4h"), Card("Jc")]
+[Card("2h"), Card("Ks")]
+[Card("9s"), Card("3d")]
+[Card("2s"), Card("Js")]
+[Card("7h"), Card("Jc")]
+[Card("Th"), Card("As")]
+[Card("Jd"), Card("Ah")]
+[Card("6h"), Card("Ad")]
+[Card("8s"), Card("8d")]
+[Card("Ts"), Card("7d")]
+[Card("5h"), Card("9s")]
+[Card("7d"), Card("3h")]
+[Card("7s"), Card("9s")]
+[Card("7d"), Card("Ac")]
+[Card("3h"), Card("Kc")]
+[Card("Qd"), Card("Th")]
+[Card("4d"), Card("Qh")]
+[Card("Th"), Card("Kh")]
+[Card("Kh"), Card("As")]
+hand is in great preflop
+[Card("8d"), Card("9s")]
+[Card("4c"), Card("3c")]
+[Card("2c"), Card("Js")]
+hand should be folded
+[Card("9d"), Card("5d")]
+[Card("6c"), Card("5s")]
+[Card("4s"), Card("Ks")]
+[Card("4c"), Card("Qh")]
+[Card("Jd"), Card("4s")]
+[Card("Qs"), Card("6c")]
+[Card("Td"), Card("Jh")]
+[Card("5d"), Card("9c")]
+[Card("7c"), Card("Js")]
+[Card("6s"), Card("7d")]
+hand should be folded
+[Card("3d"), Card("8h")]
+hand should be folded
+[Card("7s"), Card("2d")]
+[Card("As"), Card("2d")]
+[Card("Ts"), Card("Qc")]
+[Card("Ac"), Card("Kh")]
+[Card("5s"), Card("Ac")]
+[Card("6d"), Card("9d")]
+[Card("3c"), Card("4c")]
+[Card("5d"), Card("2c")]
+[Card("Jc"), Card("Qc")]
+[Card("3h"), Card("Ac")]
+[Card("4h"), Card("Kd")]
+[Card("4s"), Card("2c")]
+[Card("4c"), Card("6c")]
+[Card("6s"), Card("8d")]
+[Card("6d"), Card("3h")]
+[Card("Qd"), Card("Qh")]
+[Card("Kc"), Card("5d")]
+[Card("6d"), Card("Jd")]
+[Card("5d"), Card("Kh")]
+[Card("7d"), Card("Ah")]
+[Card("8s"), Card("5h")]
+[Card("Qh"), Card("Ac")]
+hand is in great preflop
+[Card("6d"), Card("2s")]
+[Card("7s"), Card("5c")]
+[Card("5d"), Card("Ts")]
+[Card("Kc"), Card("7c")]
+[Card("2h"), Card("5h")]
+[Card("9h"), Card("7c")]
+[Card("9c"), Card("2d")]
+[Card("7s"), Card("Ah")]
+[Card("2s"), Card("3h")]
+hand should be folded
+[Card("Qs"), Card("9h")]
+[Card("6c"), Card("4c")]
+[Card("5s"), Card("Kh")]
+[Card("Ad"), Card("9s")]
+[Card("9d"), Card("9h")]
+[Card("6c"), Card("3h")]
+[Card("8h"), Card("9s")]
+[Card("6d"), Card("3s")]
+[Card("Kd"), Card("3h")]
+[Card("9s"), Card("Td")]
+[Card("6s"), Card("3h")]
+[Card("Tc"), Card("2h")]
+[Card("9d"), Card("Tc")]
+[Card("Ts"), Card("4h")]
+[Card("6h"), Card("2d")]
+[Card("4c"), Card("6c")]
+[Card("7d"), Card("Ah")]
+[Card("Ad"), Card("Ac")]
+hand is in great preflop
+[Card("6h"), Card("Qd")]
+[Card("4h"), Card("6d")]
+hand should be folded
+[Card("2h"), Card("8h")]
+[Card("7c"), Card("As")]
+[Card("8d"), Card("7s")]
+[Card("Td"), Card("Jd")]
+[Card("4c"), Card("2h")]
+[Card("9h"), Card("4c")]
+[Card("3d"), Card("4d")]
+[Card("Jh"), Card("6d")]
+[Card("8s"), Card("Ks")]
+[Card("Js"), Card("5s")]
+[Card("Ah"), Card("2h")]
+[Card("6s"), Card("Ad")]
+[Card("2s"), Card("3h")]
+hand should be folded
+[Card("5c"), Card("Ac")]
+[Card("Kh"), Card("8d")]
+[Card("Jh"), Card("2h")]
+[Card("5s"), Card("3s")]
+[Card("2s"), Card("5s")]
+[Card("Qc"), Card("Ah")]
+hand is in great preflop
+[Card("6d"), Card("5c")]
+[Card("2c"), Card("4d")]
+hand should be folded
+[Card("9d"), Card("Ts")]
+[Card("2c"), Card("2d")]
+[Card("9s"), Card("Ad")]
+[Card("Js"), Card("Kh")]
+[Card("Ac"), Card("Qc")]
+[Card("Jc"), Card("7d")]
+[Card("9d"), Card("9s")]
+hand is in great preflop
+[Card("Kc"), Card("Td")]
+[Card("9s"), Card("2h")]
+[Card("Tc"), Card("Kc")]
+[Card("9h"), Card("Ad")]
+[Card("6c"), Card("Jd")]
+[Card("2d"), Card("7d")]
+[Card("3d"), Card("Kd")]
+[Card("4h"), Card("Jh")]
+[Card("3s"), Card("7c")]
+hand should be folded
+[Card("Th"), Card("Ah")]
+[Card("6s"), Card("Qd")]
+[Card("7d"), Card("5c")]
+[Card("2s"), Card("Ks")]
+[Card("8c"), Card("Qs")]
+[Card("4h"), Card("8c")]
+hand should be folded
+[Card("Jc"), Card("Jh")]
+[Card("9d"), Card("5d")]
+[Card("Jh"), Card("8c")]
+[Card("5c"), Card("Ad")]
+[Card("5h"), Card("6s")]
+hand should be folded
+[Card("Jc"), Card("9s")]
+[Card("Qd"), Card("Kd")]
+[Card("5d"), Card("2d")]
+[Card("Tc"), Card("6h")]
+[Card("3c"), Card("Ac")]
+[Card("3c"), Card("3h")]
+[Card("3s"), Card("9s")]
+[Card("5d"), Card("4d")]
+[Card("Ad"), Card("5h")]
+[Card("4c"), Card("9d")]
+hand should be folded
+[Card("8c"), Card("6h")]
+[Card("2s"), Card("7c")]
+hand should be folded
+[Card("Ks"), Card("Kh")]
+[Card("Ks"), Card("Qc")]
+[Card("As"), Card("Js")]
+[Card("4c"), Card("8d")]
+hand should be folded
+[Card("4s"), Card("4c")]
+[Card("2s"), Card("9s")]
+[Card("Td"), Card("Kd")]
+[Card("6c"), Card("6s")]
+[Card("8s"), Card("5h")]
+[Card("9d"), Card("3h")]
+[Card("3d"), Card("6s")]
+hand should be folded
+[Card("5d"), Card("9c")]
+[Card("5d"), Card("Ac")]
+[Card("7c"), Card("4s")]
+[Card("4s"), Card("5c")]
+hand should be folded
+[Card("2d"), Card("9h")]
+hand should be folded
+[Card("5s"), Card("Qh")]
+[Card("3h"), Card("Kh")]
+[Card("Qs"), Card("9c")]
+[Card("Tc"), Card("7s")]
+[Card("Ks"), Card("Kc")]
+[Card("Qc"), Card("Ks")]
+[Card("5c"), Card("5s")]
+[Card("6d"), Card("5c")]
+[Card("Kh"), Card("7c")]
+[Card("7s"), Card("3s")]
+[Card("Jc"), Card("Ac")]
+[Card("Td"), Card("Qd")]
+[Card("8c"), Card("Ts")]
+[Card("Ac"), Card("Tc")]
+[Card("3s"), Card("5c")]
+hand should be folded
+[Card("9h"), Card("2d")]
+[Card("Kc"), Card("2h")]
+[Card("Kc"), Card("2h")]
+[Card("4s"), Card("8d")]
+hand should be folded
+[Card("3d"), Card("5h")]
+hand should be folded
+[Card("7h"), Card("Tc")]
+[Card("7d"), Card("4h")]
+[Card("Th"), Card("Jh")]
+[Card("Ac"), Card("Ks")]
+[Card("Jc"), Card("7d")]
+[Card("Qd"), Card("Qc")]
+hand is in great preflop
+[Card("Js"), Card("7s")]
+[Card("Kd"), Card("9d")]
+[Card("8d"), Card("4h")]
+[Card("8s"), Card("8h")]
+[Card("5c"), Card("Qs")]
+[Card("8h"), Card("8d")]
+[Card("As"), Card("8h")]
+[Card("6d"), Card("6h")]
+[Card("2d"), Card("Qc")]
+[Card("2h"), Card("Kd")]
+[Card("6s"), Card("7c")]
+hand should be folded
+[Card("Qd"), Card("Kc")]
+[Card("Tc"), Card("9h")]
+[Card("Jh"), Card("7d")]
+[Card("5s"), Card("Qh")]
+[Card("Js"), Card("7d")]
+[Card("Kd"), Card("6h")]
+[Card("8d"), Card("3d")]
+[Card("7d"), Card("Kc")]
+[Card("3h"), Card("5h")]
+[Card("2h"), Card("8s")]
+hand should be folded
+[Card("6s"), Card("Js")]
+[Card("9s"), Card("Ad")]
+[Card("Kh"), Card("2d")]
+[Card("5h"), Card("Ts")]
+[Card("9c"), Card("2h")]
+[Card("6h"), Card("Ts")]
+[Card("Jc"), Card("2s")]
+[Card("6c"), Card("5h")]
+[Card("Jc"), Card("2c")]
+[Card("5c"), Card("Jc")]
+[Card("Ts"), Card("Qc")]
+[Card("2c"), Card("Ts")]
+hand should be folded
+[Card("5c"), Card("Qh")]
+[Card("8c"), Card("Jd")]
+[Card("Js"), Card("Td")]
+[Card("7c"), Card("2c")]
+[Card("6d"), Card("As")]
+[Card("5d"), Card("Ac")]

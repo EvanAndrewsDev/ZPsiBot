@@ -50,10 +50,7 @@ for hand in all_hands_2:
     if hand[0].suit != hand[1].suit and hand[0].rank != hand[1].rank and (hand[0].rank + hand[1].rank < 10):
         pre_flop_fold.append(hand)
 #pre_flop_fold = [[eval7.Card(hand[:2]) , eval7.Card(hand[2:])] for hand in pre_flop_fold]
-great_preflop = []
-for h in all_hands_2:
-    if ((h[0].rank == h[1].rank and h[0].rank + h[1].rank >= 14) or h[0].rank + h[1].rank >= 22):
-        great_preflop.append(h)
+
 class Player(Bot):
     '''
     A pokerbot.
@@ -142,7 +139,7 @@ class Player(Bot):
            min_raise, max_raise = round_state.raise_bounds()  # the smallest and largest numbers of chips for a legal bet/raise
            min_cost = min_raise - my_pip  # the cost of a minimum bet/raise
            max_cost = max_raise - my_pip  # the cost of a maximum bet/raise
-           #print(min_raise, max_raise, my_stack, opp_stack, my_pip, opp_pip)
+           print(min_raise, max_raise, my_stack, opp_stack, my_pip, opp_pip)
     
         #___myLogic___
         all_cards = my_cards + board_cards
@@ -150,97 +147,29 @@ class Player(Bot):
         hand_rank = eval7.evaluate(hand)
         hand_type = eval7.handtype(hand_rank)
         equity = hand_to_equity[hand_type]
-
         if BidAction in legal_actions:
-            #print(opp_bid)
-            #if opp_bid == None:
-                #100 was great
-                #return BidAction(min(my_stack, 120))
-            return BidAction(0)
-
-        if street == 0:
-            
-            '''
-            great_preflop = []
-            for h in all_hands_2:
-                if ((h[0].rank == h[1].rank and h[0].rank + h[1].rank >= 14) or h[0].rank + h[1].rank >= 22):
-                    great_preflop.append(h)
-            '''
-                
-
-            #great_preflop = [h for h in all_hands_2 if ((h[0].rank == h[1].rank and strength_dict[h[0].rank] + strength_dict[h[1].rank] >= 18) or strength_dict[h[0].rank] + strength_dict[h[1].rank] >= 26)]
-            if big_blind: #we are small blind
-                
-                print(hand)
-                if hand in great_preflop:
-                    print('hand is in great preflop')
-                    if RaiseAction in legal_actions:
-                        return RaiseAction(min(int(3.2*opp_pip), max_raise))
-                    elif CheckAction in legal_actions:
-                        return CheckAction()
-                    return FoldAction()
-                if hand in pre_flop_fold:
-                    print('hand should be folded')
-                    if CheckAction in legal_actions:
-                        return CheckAction()
-                    return FoldAction()
-                else:
-                    if eval7.evaluate(hand) > 0.9 * pocket_2_max:
-                        if RaiseAction in legal_actions:
-                            return RaiseAction(max_raise)
-                    
-                    if hand in pre_flop_fold:
-                        if CheckAction in legal_actions:
-                            return CheckAction()
-                        return FoldAction()
-                    elif hand in great_preflop:
-                        return RaiseAction(min(int(3.2*opp_pip), max_raise))
-                    if CheckAction in legal_actions:
-                        return CheckAction()
-                    return FoldAction()
-                    
-            
-            else: #we are small blind
-                if hand in pre_flop_fold:
-                    # if CheckAction in legal_actions:
-                    #     return CheckAction()
-                    return FoldAction()
-                if opp_pip > 2:
-                    if hand in great_preflop:
-                        if RaiseAction in legal_actions:
-                            return RaiseAction(min(max_raise,int(2.5 * opp_pip)))
-                    else:
-                        if continue_cost > equity*pot:
-                            return FoldAction()
-                        else:
-                            return CallAction()
-                if RaiseAction in legal_actions:        
-                    return RaiseAction(min(max_raise,int(2.5 * opp_pip)))
-        
-        #This is start of post flop logic
-        hand_type = eval7.handtype(hand_rank)
-        equity = hand_to_equity[hand_type]
-        
-        if equity >= 0.8:
-            if RaiseAction in legal_actions:
-                return RaiseAction(0.9*max_raise) #try to trip up all in trigger
-            
-        elif equity >= 0.6:
-            if RaiseAction in legal_actions:
-                return RaiseAction(min(max_raise, int(0.5*(pot))))
+            return BidAction(my_stack/2)
+        if equity > .3:
+            #foldout
+            if FoldAction in legal_actions:
+                return FoldAction()
+            else:
+                return CheckAction()
         else:
-            if CheckAction in legal_actions:
-                if continue_cost < equity*pot:
-                    return CheckAction()
-                else:
-                    return FoldAction()
-        
+            if RaiseAction in legal_actions:
+                return RaiseAction(max(0, max_raise))
+            else:
+                return CheckAction()
+
+       
+'''
         if CheckAction in legal_actions:
             return CheckAction()
         if CallAction in legal_actions:
             return CallAction()
-        return FoldAction()
 
+        return FoldAction()
+'''
 
 
 
