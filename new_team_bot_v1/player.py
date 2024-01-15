@@ -52,7 +52,7 @@ for hand in all_hands_2:
 #pre_flop_fold = [[eval7.Card(hand[:2]) , eval7.Card(hand[2:])] for hand in pre_flop_fold]
 great_preflop = []
 for h in all_hands_2:
-    if ((h[0].rank == h[1].rank and h[0].rank + h[1].rank >= 14) or h[0].rank + h[1].rank >= 22):
+    if ((h[0].rank == h[1].rank and h[0].rank + h[1].rank >= 14) or h[0].rank + h[1].rank >= 22 or h[0].rank >= 11 or h[1].rank > 10):
         great_preflop.append(h)
 class Player(Bot):
     '''
@@ -169,7 +169,7 @@ class Player(Bot):
                 
 
             #great_preflop = [h for h in all_hands_2 if ((h[0].rank == h[1].rank and strength_dict[h[0].rank] + strength_dict[h[1].rank] >= 18) or strength_dict[h[0].rank] + strength_dict[h[1].rank] >= 26)]
-            if big_blind: #we are small blind
+            if not big_blind: #we are small blind
                 
                 print(hand)
                 if hand in great_preflop:

@@ -142,6 +142,8 @@ class Player(Bot):
            print(min_raise, max_raise, my_stack, opp_stack, my_pip, opp_pip)
     
         #___myLogic___
+
+
         all_cards = my_cards + board_cards
         hand = [eval7.Card(s) for s in all_cards]
         hand_rank = eval7.evaluate(hand)
@@ -151,7 +153,8 @@ class Player(Bot):
             if FoldAction in legal_actions:
                 return FoldAction()
             else:
-                return CheckAction()
+                if CheckAction in legal_actions:
+                    return CheckAction()
         else:
             if RaiseAction in legal_actions:
                 return RaiseAction(max(0, max_raise))
