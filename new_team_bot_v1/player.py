@@ -182,7 +182,7 @@ class Player(Bot):
 
 
             
-            return BidAction(0)
+            return BidAction(100)
 
         if street == 0:
             
