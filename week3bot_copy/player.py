@@ -242,10 +242,8 @@ class Player(Bot):
         #postflop logic
         hand_type = eval7.handtype(hand_rank)
         equity = hand_to_equity[hand_type]
-        if len(my_cards) >= 6:
-            equity += .3
         
-        if equity >= 0.7:
+        if equity >= 0.8:
             if RaiseAction in legal_actions:
                 return RaiseAction(0.9*max_raise) #try to trip up all in trigger
             

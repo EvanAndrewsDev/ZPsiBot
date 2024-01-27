@@ -1,11 +1,1647 @@
-4 400 399 398 1 2
-Traceback (most recent call last):
-  File "/Users/claydavis/Documents/GitHub/ZPsiBot/bigpokahplayah/player.py", line 177, in <module>
-    run_bot(Player(), parse_args())
-  File "/Users/claydavis/Documents/GitHub/ZPsiBot/bigpokahplayah/skeleton/runner.py", line 143, in run_bot
-    runner.run()
-  File "/Users/claydavis/Documents/GitHub/ZPsiBot/bigpokahplayah/skeleton/runner.py", line 119, in run
-    self.send(action)
-  File "/Users/claydavis/Documents/GitHub/ZPsiBot/bigpokahplayah/skeleton/runner.py", line 44, in send
-    code = 'R' + str(action.amount)
-AttributeError: 'NoneType' object has no attribute 'amount'
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand is in great preflop
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand should be folded
+hand should be folded
+hand should be folded
+hand is in great preflop
+hand should be folded
+hand is in great preflop
