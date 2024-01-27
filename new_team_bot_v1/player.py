@@ -152,11 +152,37 @@ class Player(Bot):
         equity = hand_to_equity[hand_type]
 
         if BidAction in legal_actions:
-            #print(opp_bid)
-            #if opp_bid == None:
-                #100 was great
-                #return BidAction(min(my_stack, 120))
-            return BidAction(0)
+            boldness = 1  #boldness is an adjustment for all of our bid amounts
+           
+             #checks for pocket pair          
+            
+            if my_cards[0][0] == my_cards[1][0]:
+                ranks = []
+                for c in board_cards:
+                    if c[0] not in ranks:
+                        ranks.append(c[0])
+                if len(ranks) <=2:
+                    return BidAction(int(.27 *my_stack * boldness)) #if we have pocket pair and a paired board, we will bet more in hopes of a full house or quads
+                else:
+                    return BidAction(int(.2 * my_stack * boldness)) #if we just have a pair another card would be helpfull, but our odds of flush or better are lower, so the card is worth less
+           
+                    
+            elif my_cards[0][1] == my_cards[1][1]:  #flush draw scenario
+                suits = []
+                for c in board_cards:
+                    
+                    if c[1] in suits:
+                        preferred = c[1]
+                    if c[1] not in suits:
+                        suits.append(c[1])
+                    
+                if len(suits) <= 2 and preferred == my_cards[0][1]:
+                    return BidAction(int(.3 * my_stack * boldness)) #if we have 4 cards of the same suit, we will bid bigger in hopes of a flush
+                    
+
+
+            
+            return BidAction(100)
 
         if street == 0:
             
@@ -223,7 +249,7 @@ class Player(Bot):
         
         if equity >= 0.8:
             if RaiseAction in legal_actions:
-                return RaiseAction(0.9*max_raise) #try to trip up all in trigger
+                return RaiseAction(int(0.9*max_raise)) #try to trip up all in trigger
             
         elif equity >= 0.6:
             if RaiseAction in legal_actions:
