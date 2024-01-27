@@ -194,12 +194,13 @@ class Player(Bot):
                 
             #print(hand)
             if hand in great_preflop:
-                print('hand is in great preflop')
                 if RaiseAction in legal_actions:
-                    return RaiseAction(min(int(3.2*opp_pip), max_raise))
-                elif CheckAction in legal_actions:
-                    return CheckAction()
+                    return RaiseAction(min(int(4*opp_pip), max_raise))
+            elif hand in pre_flop_fold:
                 return FoldAction()
+            else:
+                if CheckAction in legal_actions:
+                    return CheckAction()
             if hand in pre_flop_fold:
                 print('hand should be folded')
                 if CheckAction in legal_actions:
@@ -245,19 +246,17 @@ class Player(Bot):
         if len(my_cards) >= 6:
             equity += .3
         
-        if equity >= 0.7:
+        if equity >= 0.8:
             if RaiseAction in legal_actions:
-                return RaiseAction(0.9*max_raise) #try to trip up all in trigger
-            
+                return RaiseAction(0.9*max_raise)
         elif equity >= 0.6:
             if RaiseAction in legal_actions:
-                return RaiseAction(min(max_raise, int(0.5*(pot))))
+                return RaiseAction(min(max_raise, int(0.7*(pot))))
         else:
             if CheckAction in legal_actions:
-                if continue_cost < equity*pot:
-                    return CheckAction()
-                else:
-                    return FoldAction()
+                return CheckAction()
+            else:
+                return FoldAction()
         
         if CheckAction in legal_actions:
             return CheckAction()
