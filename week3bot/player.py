@@ -167,7 +167,7 @@ class Player(Bot):
                     if c[0] not in ranks:
                         ranks.append(c[0])
                 if len(ranks) <=2:
-                    return BidAction(int(.27 *my_stack * boldness)) #if we have pocket pair and a paired board, we will bet more in hopes of a full house or quads
+                    return BidAction(int(.075 * pot)) #if we have pocket pair and a paired board, we will bet more in hopes of a full house or quads
                 else:
                     return BidAction(int(.2 * my_stack * boldness)) #if we just have a pair another card would be helpfull, but our odds of flush or better are lower, so the card is worth less
            
