@@ -24,8 +24,8 @@ def generate_all_hands(deck, number):
 #
 
 hand_to_equity = {
-    "High Card": 0.3,
-    "Pair": 0.6,
+    "High Card": 0.2,
+    "Pair": 0.4,
     "Two Pair": 0.8,
     "Trips": 0.95,
     "Straight": 0.98,
@@ -243,13 +243,18 @@ class Player(Bot):
         #postflop logic
         hand_type = eval7.handtype(hand_rank)
         equity = hand_to_equity[hand_type]
-        if len(my_cards) >= 6:
+        if len(my_cards) == 3:
             equity += .3
-        
         if equity >= 0.8:
             if RaiseAction in legal_actions:
-                return RaiseAction(int(0.9*max_raise))
+                if continue_cost >= int(.9*max_raise):
+                    return CallAction()
+                else:
+                    return RaiseAction(int(0.9*max_raise))
         elif equity >= 0.6:
+            if continue_cost >= min(max_raise, int(0.7*(pot))):
+                return FoldAction()
+
             if RaiseAction in legal_actions:
                 return RaiseAction(min(max_raise, int(0.7*(pot))))
         else:
