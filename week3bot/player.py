@@ -190,7 +190,7 @@ class Player(Bot):
             return BidAction(100)
         
         #preflop logic
-        if not big_blind: #we are small blind
+        if not big_blind and len(board_cards)==0: #we are small blind
                 
             #print(hand)
             if hand in great_preflop:
@@ -222,7 +222,7 @@ class Player(Bot):
                 return FoldAction()
                 
         
-        else: #we are small blind
+        elif len(board_cards)==0: #we are small blind
             if hand in pre_flop_fold:
                 # if CheckAction in legal_actions:
                 #     return CheckAction()
@@ -248,7 +248,7 @@ class Player(Bot):
         
         if equity >= 0.8:
             if RaiseAction in legal_actions:
-                return RaiseAction(0.9*max_raise)
+                return RaiseAction(int(0.9*max_raise))
         elif equity >= 0.6:
             if RaiseAction in legal_actions:
                 return RaiseAction(min(max_raise, int(0.7*(pot))))
