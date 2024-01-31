@@ -243,7 +243,7 @@ class Player(Bot):
         #postflop logic
         hand_type = eval7.handtype(hand_rank)
         equity = hand_to_equity[hand_type]
-        if len(my_cards) >= 6:
+        if len(my_cards) == 2:
             equity += .3
         
         if equity >= 0.8:
