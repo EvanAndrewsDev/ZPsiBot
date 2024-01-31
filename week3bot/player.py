@@ -245,6 +245,8 @@ class Player(Bot):
         equity = hand_to_equity[hand_type]
         if len(my_cards) == 3:
             equity += .3
+        # if continue_cost > equity*pot:
+        #     return FoldAction
         if equity >= 0.8:
             if RaiseAction in legal_actions:
                 if continue_cost >= int(.9*max_raise):
