@@ -215,7 +215,7 @@ class Player(Bot):
                     if CheckAction in legal_actions:
                         return CheckAction()
                     return FoldAction()
-                elif hand in great_preflop:
+                elif hand in great_preflop and RaiseAction in legal_actions:
                     return RaiseAction(min(int(3.2*opp_pip), max_raise))
                 if CheckAction in legal_actions:
                     return CheckAction()
