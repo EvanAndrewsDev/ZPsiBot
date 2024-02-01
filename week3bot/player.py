@@ -22,10 +22,33 @@ def generate_all_hands(deck, number):
     combos = list(combinations(deck, number))
     return ["".join(c) for c in combos]
 #
+def calculate_hand_equity(hand, board):
+    deck = generate_deck()
+    remaining_deck = [card for card in deck if card not in hand and card not in board]
+    wins = 0
+    iterations = 100  
+
+    for _ in range(iterations):
+        random.shuffle(remaining_deck)
+        opponent_hand = remaining_deck[:2]
+        future_board = board + remaining_deck[2:7-len(board)]
+        my_score = eval7.evaluate([eval7.Card(card) for card in hand + future_board])
+        opponent_score = eval7.evaluate([eval7.Card(card) for card in opponent_hand + future_board])
+        if my_score > opponent_score:
+            wins += 1
+    print(wins/iterations)
+    return wins / iterations
+
+equity_multipliers = {
+    'consistent_hand': 1.5,
+    'likely_loss': .25,
+    'won_bid': 1.3,
+    'improved_equity': 1.3
+}
 
 hand_to_equity = {
-    "High Card": 0.3,
-    "Pair": 0.6,
+    "High Card": 0.2,
+    "Pair": 0.4,
     "Two Pair": 0.8,
     "Trips": 0.95,
     "Straight": 0.98,
@@ -34,6 +57,13 @@ hand_to_equity = {
     "Quads": 1,
     "Straight Flush": 1,
     "Royal Flush": 1
+}
+
+equity_multipliers = {
+    'consistent_hand': 1.5,
+    'likely_loss': .25,
+    'won_bid': 1.3,
+    'improved_equity': 1.3
 }
 
 pocket_2_max, pocket_2_min = 17563648, 327680
@@ -154,7 +184,8 @@ class Player(Bot):
         hand = [eval7.Card(s) for s in all_cards]
         hand_rank = eval7.evaluate(hand)
         hand_type = eval7.handtype(hand_rank)
-        equity = hand_to_equity[hand_type]
+        #equity = hand_to_equity[hand_type]
+        equity = calculate_hand_equity([card for card in my_cards], [card for card in board_cards])
 
         if BidAction in legal_actions:
             boldness = 1  #boldness is an adjustment for all of our bid amounts
@@ -167,7 +198,8 @@ class Player(Bot):
                     if c[0] not in ranks:
                         ranks.append(c[0])
                 if len(ranks) <=2:
-                    return BidAction(int(.075 * pot)) #if we have pocket pair and a paired board, we will bet more in hopes of a full house or quads
+                    bidamount = min(int(my_stack*.75), int(.75*pot))
+                    return BidAction(bidamount) #if we have pocket pair and a paired board, we will bet more in hopes of a full house or quads
                 else:
                     return BidAction(int(.2 * my_stack * boldness)) #if we just have a pair another card would be helpfull, but our odds of flush or better are lower, so the card is worth less
            
@@ -187,9 +219,10 @@ class Player(Bot):
 
 
             
-            return BidAction(100)
+            return BidAction(my_stack/2)
         
         #preflop logic
+        initial_equity = equity
         if not big_blind and len(board_cards)==0: #we are small blind
                 
             #print(hand)
@@ -215,8 +248,11 @@ class Player(Bot):
                     if CheckAction in legal_actions:
                         return CheckAction()
                     return FoldAction()
-                elif hand in great_preflop:
-                    return RaiseAction(min(int(3.2*opp_pip), max_raise))
+                elif hand in great_preflop and RaiseAction in legal_actions:
+                    #return RaiseAction(min(int(3.2*opp_pip), max_raise))
+                     #this creates the error for illegal raise
+                    raiseamount = min(max_raise-1, 3.2*opp_pip)
+                    return RaiseAction(raiseamount)
                 if CheckAction in legal_actions:
                     return CheckAction()
                 return FoldAction()
@@ -241,15 +277,27 @@ class Player(Bot):
         
         
         #postflop logic
-        hand_type = eval7.handtype(hand_rank)
-        equity = hand_to_equity[hand_type]
-        if len(my_cards) >= 6:
-            equity += .3
         
-        if equity >= 0.8:
+        hand_type = eval7.handtype(hand_rank)
+        equity = calculate_hand_equity([card for card in my_cards], [card for card in board_cards])
+        #if equity > initial_equity:
+            #equity = equity*equity_multipliers['improved_equity']
+        if len(my_cards) == 3:
+            #equity += .3
+            equity = equity*equity_multipliers['won_bid']
+        # if continue_cost > equity*pot:
+        #     return FoldAction
+        if equity >= 0.65:
             if RaiseAction in legal_actions:
-                return RaiseAction(int(0.9*max_raise))
-        elif equity >= 0.6:
+                if continue_cost >= int(.9*max_raise):
+                    return CallAction()
+                else:
+                    return RaiseAction(int(0.9*max_raise))
+        elif equity >= 0.5:
+            if RaiseAction in legal_actions:
+                if continue_cost >= min(max_raise, int(0.7*(pot))):
+                    return FoldAction()
+
             if RaiseAction in legal_actions:
                 return RaiseAction(min(max_raise, int(0.7*(pot))))
         else:

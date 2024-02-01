@@ -24,8 +24,8 @@ def generate_all_hands(deck, number):
 #
 
 hand_to_equity = {
-    "High Card": 0.3,
-    "Pair": 0.6,
+    "High Card": 0.2,
+    "Pair": 0.4,
     "Two Pair": 0.8,
     "Trips": 0.95,
     "Straight": 0.98,
@@ -34,6 +34,13 @@ hand_to_equity = {
     "Quads": 1,
     "Straight Flush": 1,
     "Royal Flush": 1
+}
+
+equity_multipliers = {
+    'consistent_hand': 1.5,
+    'likely_loss': .25,
+    'won_bid': 1.3,
+    'improved_equity': 1.3
 }
 
 pocket_2_max, pocket_2_min = 17563648, 327680
@@ -52,7 +59,7 @@ for hand in all_hands_2:
 #pre_flop_fold = [[eval7.Card(hand[:2]) , eval7.Card(hand[2:])] for hand in pre_flop_fold]
 great_preflop = []
 for h in all_hands_2:
-    if ((h[0].rank == h[1].rank and h[0].rank + h[1].rank >= 14) or h[0].rank + h[1].rank >= 22 or h[0].rank >= 11 or h[1].rank > 10):
+    if ((h[0].rank == h[1].rank and h[0].rank + h[1].rank >= 14) or h[0].rank + h[1].rank >= 22):
         great_preflop.append(h)
 class Player(Bot):
     '''
@@ -155,6 +162,7 @@ class Player(Bot):
         hand_rank = eval7.evaluate(hand)
         hand_type = eval7.handtype(hand_rank)
         equity = hand_to_equity[hand_type]
+        
 
         if BidAction in legal_actions:
             boldness = 1  #boldness is an adjustment for all of our bid amounts
@@ -167,7 +175,8 @@ class Player(Bot):
                     if c[0] not in ranks:
                         ranks.append(c[0])
                 if len(ranks) <=2:
-                    return BidAction(int(.27 *my_stack * boldness)) #if we have pocket pair and a paired board, we will bet more in hopes of a full house or quads
+                    bidamount = min(int(my_stack*.75), int(.75*pot))
+                    return BidAction(bidamount) #if we have pocket pair and a paired board, we will bet more in hopes of a full house or quads
                 else:
                     return BidAction(int(.2 * my_stack * boldness)) #if we just have a pair another card would be helpfull, but our odds of flush or better are lower, so the card is worth less
            
@@ -187,19 +196,21 @@ class Player(Bot):
 
 
             
-            return BidAction(100)
+            return BidAction(my_stack/2)
         
         #preflop logic
-        if not big_blind: #we are small blind
+        initial_equity = equity
+        if not big_blind and len(board_cards)==0: #we are small blind
                 
             #print(hand)
             if hand in great_preflop:
-                print('hand is in great preflop')
                 if RaiseAction in legal_actions:
-                    return RaiseAction(min(int(3.2*opp_pip), max_raise))
-                elif CheckAction in legal_actions:
-                    return CheckAction()
+                    return RaiseAction(min(int(4*opp_pip), max_raise))
+            elif hand in pre_flop_fold:
                 return FoldAction()
+            else:
+                if CheckAction in legal_actions:
+                    return CheckAction()
             if hand in pre_flop_fold:
                 print('hand should be folded')
                 if CheckAction in legal_actions:
@@ -214,14 +225,17 @@ class Player(Bot):
                     if CheckAction in legal_actions:
                         return CheckAction()
                     return FoldAction()
-                elif hand in great_preflop:
-                    return RaiseAction(min(int(3.2*opp_pip), max_raise))
+                elif hand in great_preflop and RaiseAction in legal_actions:
+                    #return RaiseAction(min(int(3.2*opp_pip), max_raise))
+                     #this creates the error for illegal raise
+                    raiseamount = min(max_raise-1, 3.2*opp_pip)
+                    return RaiseAction(raiseamount)
                 if CheckAction in legal_actions:
                     return CheckAction()
                 return FoldAction()
                 
         
-        else: #we are small blind
+        elif len(board_cards)==0: #we are small blind
             if hand in pre_flop_fold:
                 # if CheckAction in legal_actions:
                 #     return CheckAction()
@@ -240,22 +254,34 @@ class Player(Bot):
         
         
         #postflop logic
+        
         hand_type = eval7.handtype(hand_rank)
         equity = hand_to_equity[hand_type]
-        
+        #if equity > initial_equity:
+            #equity = equity*equity_multipliers['improved_equity']
+        if len(my_cards) == 3:
+            #equity += .3
+            equity = equity*equity_multipliers['won_bid']
+        # if continue_cost > equity*pot:
+        #     return FoldAction
         if equity >= 0.8:
             if RaiseAction in legal_actions:
-                return RaiseAction(0.9*max_raise) #try to trip up all in trigger
-            
+                if continue_cost >= int(.9*max_raise):
+                    return CallAction()
+                else:
+                    return RaiseAction(int(0.9*max_raise))
         elif equity >= 0.6:
             if RaiseAction in legal_actions:
-                return RaiseAction(min(max_raise, int(0.5*(pot))))
+                if continue_cost >= min(max_raise, int(0.7*(pot))):
+                    return FoldAction()
+
+            if RaiseAction in legal_actions:
+                return RaiseAction(min(max_raise, int(0.7*(pot))))
         else:
             if CheckAction in legal_actions:
-                if continue_cost < equity*pot:
-                    return CheckAction()
-                else:
-                    return FoldAction()
+                return CheckAction()
+            else:
+                return FoldAction()
         
         if CheckAction in legal_actions:
             return CheckAction()
