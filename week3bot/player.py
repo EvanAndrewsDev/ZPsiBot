@@ -52,7 +52,7 @@ for hand in all_hands_2:
 #pre_flop_fold = [[eval7.Card(hand[:2]) , eval7.Card(hand[2:])] for hand in pre_flop_fold]
 great_preflop = []
 for h in all_hands_2:
-    if ((h[0].rank == h[1].rank and h[0].rank + h[1].rank >= 14) or h[0].rank + h[1].rank >= 22 or h[0].rank >= 11 or h[1].rank > 10):
+    if ((h[0].rank == h[1].rank and h[0].rank + h[1].rank >= 14) or h[0].rank + h[1].rank >= 22):
         great_preflop.append(h)
 class Player(Bot):
     '''
